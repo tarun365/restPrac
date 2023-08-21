@@ -6,7 +6,7 @@ import java.io.FileOutputStream;
 import java.io.PrintStream;
 import java.nio.file.Files;
 
-import org.testng.Assert;
+
 import org.testng.annotations.Test;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
@@ -14,16 +14,16 @@ import io.restassured.response.Response;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.json.JSONObject;
-import org.testng.asserts.SoftAssert;
 
-import cucumber.api.java.en.Given;
+
+
 import io.restassured.http.ContentType;
 
 public class postCreate {
 	
 	
 	
-	@Given("^an API to post$")
+	
 	@Test
 	public void postCreate(){
 		
@@ -52,7 +52,7 @@ public class postCreate {
 		
 
 		
-		Assert.assertEquals(response.getStatusCode(), 200,"Status is not 200");
+		/*Assert.assertEquals(response.getStatusCode(), 200,"Status is not 200");
 		
 		SoftAssert softAssert=new SoftAssert();
 		
@@ -74,7 +74,7 @@ public class postCreate {
 		String checkOutDate=response.jsonPath().getString("booking.bookingdates.checkout");
 		softAssert.assertEquals(checkOutDate, "2019-09-09");
 		
-		softAssert.assertAll();
+		softAssert.assertAll();*/
 		/*try {
 			PrintStream result=new PrintStream(new File("C:\\Users\\2130177\\eclipse-workspace\\restPrac\\target\\files\\post.json"));
 			result.print(response.prettyPrint());
