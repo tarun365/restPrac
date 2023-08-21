@@ -1,0 +1,168 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verifying the breakFlow of API",
+        "description": "",
+        "id": "api-request-validations-pom;verifying-the-breakflow-of-api",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10514034400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "an API to post",
+            "match": {
+              "location": "postCreate.postCreate()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2108488200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "get the created API",
+            "match": {
+              "location": "getInfo.getInfo()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1618552400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "update the API",
+            "match": {
+              "location": "putUpdate.putUpdate()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1656216400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "delete the API",
+            "match": {
+              "location": "deleteBooking.deleteBooking()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@UATTesting"
+          }
+        ]
+      }
+    ],
+    "name": "API request validations POM",
+    "description": "",
+    "id": "api-request-validations-pom",
+    "keyword": "Feature",
+    "uri": "./features/codeBreakflow.feature",
+    "tags": [
+      {
+        "name": "@UATTesting",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Flow of API",
+        "description": "",
+        "id": "api-request-validations;flow-of-api",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1817203600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "an API to post",
+            "match": {
+              "location": "postCreate.postCreate()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1757542100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "get the created API",
+            "match": {
+              "location": "getInfo.getInfo()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1740286000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "update the API",
+            "match": {
+              "location": "putUpdate.putUpdate()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1848059300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "delete the API",
+            "match": {
+              "location": "deleteBooking.deleteBooking()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@UATTesting"
+          }
+        ]
+      }
+    ],
+    "name": "API request validations",
+    "description": "",
+    "id": "api-request-validations",
+    "keyword": "Feature",
+    "uri": "./features/codeflow.feature",
+    "tags": [
+      {
+        "name": "@UATTesting",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

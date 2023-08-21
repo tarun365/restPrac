@@ -1,0 +1,11 @@
+{
+    "firstname": "gurupalli",
+    "lastname": "tarun",
+    "totalprice": 312,
+    "depositpaid": false,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-09-09"
+    },
+    "additionalneeds": "bsjduk"
+}
